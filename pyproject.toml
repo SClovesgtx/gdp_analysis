@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "world-population-analysis-tool"
+version = "0.1.0"
+description = ""
+authors = ["Cloves Paiva <cloves.paiva@extremedigital.com.br>"]
+readme = "README.md"
+packages = [{include = "world_population_analysis_tool"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+pandas = "^1.5.3"
+matplotlib = "^3.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.21.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
