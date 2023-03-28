@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "world-population-analysis-tool"
+name = "gdp analysis"
 version = "0.1.0"
 description = ""
 authors = ["Cloves Paiva <cloves.paiva@extremedigital.com.br>"]
 readme = "README.md"
-packages = [{include = "world_population_analysis_tool"}]
+packages = [{include = "gdp_analysis"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
